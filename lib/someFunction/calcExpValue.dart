@@ -1,10 +1,8 @@
 void main() {
-
-  print(cacuSimpleExp('100+50-50-'));
-
+  print(calcSimpleExp('100+50-50-'));
 }
 
-String cacuSimpleExp(String exp) {
+String calcSimpleExp(String exp) {
 
   if (exp == null || exp == '') {
     return '0';

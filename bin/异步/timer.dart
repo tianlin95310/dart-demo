@@ -7,7 +7,7 @@ void main() {
 }
 
 void startCountdownTimer() {
-  const oneSec = const Duration(seconds: 1);
+  const oneSec = Duration(seconds: 1);
 
   var _timer;
 
