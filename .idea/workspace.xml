@@ -1,33 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="52fa06af-3ffb-4d22-83d2-94dc6fee23ae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/异步/future.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dataType.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/数据类型/dataType.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dateformat.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/格式化/dateformat.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/数据类型/function.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/future.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/io.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/io/io.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/数据类型/list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/locale.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/map.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/数据类型/map.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/mixin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/类/mixin.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/number.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/数据类型/number.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/object.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/类/object.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/operate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/操作符/operate.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/reg.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/正则/reg.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/set.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/数据类型/set.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/timer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/异步/timer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/try-catch.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bin/异常/try-catch.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/grammar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/grammar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/io/io.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/io/io.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/json.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/json.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/异常/try-catch.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/异常/try-catch.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/异步/future.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/异步/future.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/异步/timer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/异步/timer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/操作符/operate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/操作符/operate.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/数据类型/dataType.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/dataType.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/数据类型/function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/function.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/数据类型/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/数据类型/map.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/map.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/数据类型/number.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/number.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/数据类型/set.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/set.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/格式化/dateformat.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/格式化/dateformat.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/格式化/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/格式化/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/格式化/query-parse.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/格式化/query-parse.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/正则/reg.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/正则/reg.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/类/mixin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/类/mixin.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/类/object.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/类/object.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dart-demo-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dart-demo-learn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/someFunction/language_format.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/someFunction/math.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/someFunction/calcExpValue.dart" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,43 +69,53 @@
     <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1TW8AzGrBhlAnmUKqzGuSBiD4Zs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="G:/Softwares/flutter-sdk/bin/cache/dart-sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FlutterSdk/flutter/bin/cache/dart-sdk" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SourceCode\IntelliJ IDEA\dart-demo-learn\bin\格式化" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\Codes\AS\dart-demo\lib" />
       <recent name="G:\SourceCode\learn\dart-demo\bin\异常" />
       <recent name="G:\SourceCode\learn\dart-demo\bin\异步" />
       <recent name="G:\SourceCode\learn\dart-demo\bin\数据类型" />
       <recent name="G:\SourceCode\learn\dart-demo\bin\io" />
-      <recent name="G:\SourceCode\learn\dart-demo\bin\类" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SourceCode\IntelliJ IDEA\dart-demo-learn\bin\格式化" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Dart Command Line App.dateformat.dart">
+  <component name="RunManager" selected="Dart Command Line App.io.dart">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,52 +132,45 @@
     </configuration>
     <configuration name="dateformat.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/bin/格式化/dateformat.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/格式化/dateformat.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="future.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/bin/异步/future.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/异步/future.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="io.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="checkedMode" value="false" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/io/io.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="list.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/bin/数据类型/list.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/数据类型/list.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/bin/格式化/main.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="map.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/bin/数据类型/map.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/格式化/main.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="object.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/bin/类/object.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/类/object.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <configuration name="operate.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/bin/操作符/operate.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/操作符/operate.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -159,34 +181,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Dart Command Line App.list.dart" />
       <item itemvalue="Dart Command Line App.object.dart" />
-      <item itemvalue="Dart Command Line App.map.dart" />
       <item itemvalue="Dart Command Line App.main.dart" />
       <item itemvalue="Dart Command Line App.future.dart" />
       <item itemvalue="Dart Command Line App.operate.dart" />
       <item itemvalue="Dart Command Line App.dateformat.dart" />
+      <item itemvalue="Dart Command Line App.io.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.io.dart" />
         <item itemvalue="Dart Command Line App.dateformat.dart" />
         <item itemvalue="Dart Command Line App.operate.dart" />
         <item itemvalue="Dart Command Line App.future.dart" />
         <item itemvalue="Dart Command Line App.main.dart" />
-        <item itemvalue="Dart Command Line App.map.dart" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -205,13 +219,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1622277593034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622277593034" />
+    <state x="344" y="78" key="SettingsEditor" timestamp="1622277600402">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="344" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622277600402" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,7 +244,7 @@
           <line>146</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/bin/操作符/operate.dart</url>
+          <url>file://$PROJECT_DIR$/lib/操作符/operate.dart</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
