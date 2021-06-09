@@ -1,9 +1,9 @@
 void main() {
 
 //  objectClone();
-  objectCloneUseApi();
+//   objectCloneUseApi();
 //  testIs();
-//  testAnnl();
+ testAnnl();
 }
 
 class A {
@@ -79,14 +79,17 @@ testAnnl() {
   var a = {'a': '1'};
   print(a);
   print({a});
+  print({a} is Map);
+  print({a} is Object);
   print({...a});
+  print({...a} is Map);
   print({...a} is Function);
 
   print('----------------');
 
   var b = [1, 2, 3];
   print({...b});
-  print(b is Map);
+  print({b} is Map);
   print({...b} is Map);
   print('----------------');
 

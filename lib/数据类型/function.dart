@@ -21,7 +21,7 @@ fun2(Test b) {
 }
 
 class Test {
-  String name;
+  String? name;
 
   @override
   bool operator ==(Object other) =>

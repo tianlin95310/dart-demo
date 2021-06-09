@@ -2,8 +2,8 @@ void main() {
   print(calcSimpleExp('100+50-50-'));
 }
 
+// 简单的表达式计算
 String calcSimpleExp(String exp) {
-
   if (exp == null || exp == '') {
     return '0';
   }
@@ -12,7 +12,7 @@ String calcSimpleExp(String exp) {
 
   List<String> sps = exp.split(RegExp('[\+,-]'));
 
-  List<String> operate = List();
+  List<String> operate = [];
   for (int i = 0; i < exp.length; i++) {
     if (exp.codeUnitAt(i) == '+'.codeUnitAt(0)) {
       operate.add('+');
@@ -29,19 +29,16 @@ String calcSimpleExp(String exp) {
   } else {
     result = double.parse(sps[0]);
     for (int i = 1; i < sps.length; i++) {
-
       if (sps[i] == '') {
         continue;
       }
       if (operate[i - 1] == '+') {
         result += double.parse(sps[i]);
-      } else if (operate[i - 1] == '-'){
+      } else if (operate[i - 1] == '-') {
         result -= double.parse(sps[i]);
       }
-
     }
   }
 
   return result.toString();
-
 }

@@ -1,8 +1,8 @@
-void main(){
+void main() {
   print(dateDelByMonth(11));
 }
 
-dateDelByMonth (int month){
+dateDelByMonth(int month) {
   DateTime dateTime = DateTime.now();
   DateTime newDate;
   print(dateTime.month);
@@ -13,12 +13,14 @@ dateDelByMonth (int month){
   }
   return newDate;
 }
-dateAdd(){
+
+dateAdd() {
   DateTime dateTime = DateTime.now();
   print(dateTime);
   print(dateTime.add(Duration(days: 31)));
 }
-parse(){
+
+parse() {
   var d1 = DateTime.parse('2018-10-10 09:30');
   print(d1.millisecondsSinceEpoch);
 }

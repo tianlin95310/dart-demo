@@ -19,7 +19,7 @@
         <entry key="args">
           <value>
             <list>
-              <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/args-2.1.0/lib" />
+              <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/args-2.1.1/lib" />
             </list>
           </value>
         </entry>
@@ -306,7 +306,7 @@
         <entry key="vm_service">
           <value>
             <list>
-              <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/vm_service-7.0.0/lib" />
+              <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/vm_service-7.1.0/lib" />
             </list>
           </value>
         </entry>
@@ -343,7 +343,7 @@
     <CLASSES>
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/_fe_analyzer_shared-22.0.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/analyzer-1.7.0/lib" />
-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/args-2.1.0/lib" />
+      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/args-2.1.1/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/async-2.7.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/boolean_selector-2.1.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/charcode-1.2.0/lib" />
@@ -384,7 +384,7 @@
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/test_api-0.4.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/test_core-0.3.25/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/typed_data-1.3.0/lib" />
-      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/vm_service-7.0.0/lib" />
+      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/vm_service-7.1.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/watcher-1.0.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/web_socket_channel-2.1.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.flutter-io.cn/webkit_inspection_protocol-1.0.0/lib" />

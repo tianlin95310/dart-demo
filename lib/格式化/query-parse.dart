@@ -1,6 +1,6 @@
 class QueryParseUtils {
   // 获取某个参数
-  static String getString(url, key) {
+  static String? getString(url, key) {
     String strs = url.split(RegExp(r'\?'));
     if (strs.length > 1) {
       String query = strs[1];
@@ -44,7 +44,7 @@ class QueryParseUtils {
     return map;
   }
 
-  static String getQueryVariable(query, variable) {
+  static String? getQueryVariable(query, variable) {
     var vars = query.split("&");
     for (var i = 0; i < vars.length; i++) {
       var pair = vars[i].split("=");

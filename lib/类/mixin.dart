@@ -11,10 +11,10 @@ abstract class B {
 mixin Test {
   var user = 'Test';
   fun2() {
-    print('mixin fun2');
+    print('mixin Test fun2');
   }
   fun() {
-    print('mixin fun');
+    print('mixin Test fun');
   }
 }
 
