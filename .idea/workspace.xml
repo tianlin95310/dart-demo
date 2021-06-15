@@ -23,27 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52fa06af-3ffb-4d22-83d2-94dc6fee23ae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/dart_demo_learn.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/grammar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/语法/grammar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/io/io.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/文件读取/io.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/json.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/json处理/json.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/someFunction/calcExpValue.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/一些算法/calc-exp-value.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/异常/try-catch.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/异常/try-catch.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/异步/future.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/异步/future.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/操作符/operate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/操作符/operate.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/数据类型/dataType.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/data-type.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/数据类型/function.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/function.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/数据类型/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/数据类型/map.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/map.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/数据类型/number.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/number.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/格式化/dateformat.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/格式化/date-format.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/格式化/query-parse.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/格式化/query-parse.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/类/mixin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/类/mixin.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/类/object.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/类/object.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dart_demo_learn_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/dart_demo_learn_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +72,7 @@
       <recent name="D:\SourceCode\IntelliJ IDEA\dart-demo-learn\bin\格式化" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.operate.dart">
+  <component name="RunManager" selected="Dart Command Line App.renameFile.dart">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -155,15 +135,15 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="server.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+    <configuration name="renameFile.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/lib/Socket编程/server.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/文件读取/renameFile.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="try-catch.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+    <configuration name="server.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/lib/异常/try-catch.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/Socket编程/server.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -179,19 +159,19 @@
     <list>
       <item itemvalue="Dart Command Line App.list.dart" />
       <item itemvalue="Dart Command Line App.object.dart" />
-      <item itemvalue="Dart Command Line App.try-catch.dart" />
       <item itemvalue="Dart Command Line App.server.dart" />
       <item itemvalue="Dart Command Line App.client.dart" />
       <item itemvalue="Dart Command Line App.Class_ask.dart" />
       <item itemvalue="Dart Command Line App.operate.dart" />
+      <item itemvalue="Dart Command Line App.renameFile.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.renameFile.dart" />
         <item itemvalue="Dart Command Line App.operate.dart" />
         <item itemvalue="Dart Command Line App.Class_ask.dart" />
         <item itemvalue="Dart Command Line App.server.dart" />
         <item itemvalue="Dart Command Line App.client.dart" />
-        <item itemvalue="Dart Command Line App.try-catch.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -226,10 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="312" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1623241347432" />
-    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1623242685089">
+    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1623243123291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623242685089" />
+    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623243123291" />
     <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623241280127">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,22 +218,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622277593034" />
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1623242846506">
+    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1623677179246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623242846506" />
-    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1623242846506">
+    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623677179246" />
+    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1623677179246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623242846506" />
-    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1623242846506">
+    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623677179246" />
+    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1623677179245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623242846506" />
-    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1623242846506">
+    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623677179245" />
+    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1623677179246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623242846506" />
+    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623677179246" />
     <state x="344" y="78" key="SettingsEditor" timestamp="1623241510764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
