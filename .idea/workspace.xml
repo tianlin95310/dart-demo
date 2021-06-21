@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52fa06af-3ffb-4d22-83d2-94dc6fee23ae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/json处理/json.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Json处理/json.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/文件读取/renameFile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/文件读取/renameFile.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
