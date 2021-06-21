@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  rename("D:\\文档\\porn\\img\\ic", 'ic');
+  rename("D:\\文档\\porn\\gif1\\vertical", 'vertical');
 }
 
 rename(String path, String preName) {

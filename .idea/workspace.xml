@@ -24,6 +24,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52fa06af-3ffb-4d22-83d2-94dc6fee23ae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/文件读取/renameFile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/文件读取/renameFile.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,13 @@
   <component name="RunManager" selected="Dart Command Line App.renameFile.dart">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,13 +147,6 @@
       <option name="filePath" value="$PROJECT_DIR$/lib/Socket编程/server.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -218,22 +219,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622277593034" />
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1623677179246">
+    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1624283703084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623677179246" />
-    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1623677179246">
+    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624283703084" />
+    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1624283703084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623677179246" />
-    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1623677179245">
+    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624283703084" />
+    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1624283703084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623677179245" />
-    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1623677179246">
+    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624283703084" />
+    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1624283703084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623677179246" />
+    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624283703084" />
     <state x="344" y="78" key="SettingsEditor" timestamp="1623241510764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
