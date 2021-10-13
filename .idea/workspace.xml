@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52fa06af-3ffb-4d22-83d2-94dc6fee23ae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/文件读取/getAssetsPath.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/json处理/json.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Json处理/json.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/文件读取/renameFile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/文件读取/renameFile.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,7 @@
       <recent name="D:\SourceCode\IntelliJ IDEA\dart-demo-learn\bin\格式化" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.renameFile.dart">
+  <component name="RunManager" selected="Dart Command Line App.getAssetsPath.dart">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -113,9 +115,15 @@
       <option name="checkedMode" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="client.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+    <configuration name="del.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/lib/Socket编程/client.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/文件读取/del.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getAssetsPath.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="checkedMode" value="false" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/文件读取/getAssetsPath.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -143,12 +151,6 @@
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="server.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/lib/Socket编程/server.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -161,19 +163,19 @@
     <list>
       <item itemvalue="Dart Command Line App.list.dart" />
       <item itemvalue="Dart Command Line App.object.dart" />
-      <item itemvalue="Dart Command Line App.server.dart" />
-      <item itemvalue="Dart Command Line App.client.dart" />
       <item itemvalue="Dart Command Line App.Class_ask.dart" />
       <item itemvalue="Dart Command Line App.operate.dart" />
       <item itemvalue="Dart Command Line App.renameFile.dart" />
+      <item itemvalue="Dart Command Line App.del.dart" />
+      <item itemvalue="Dart Command Line App.getAssetsPath.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.getAssetsPath.dart" />
         <item itemvalue="Dart Command Line App.renameFile.dart" />
+        <item itemvalue="Dart Command Line App.del.dart" />
         <item itemvalue="Dart Command Line App.operate.dart" />
         <item itemvalue="Dart Command Line App.Class_ask.dart" />
-        <item itemvalue="Dart Command Line App.server.dart" />
-        <item itemvalue="Dart Command Line App.client.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -204,54 +206,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="0" key="#Project_Structure" timestamp="1623241347432">
+    <state x="639" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627870265384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="312" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1623241347432" />
-    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1623243123291">
+    <state x="639" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627870265384" />
+    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1629968863376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="718" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623243123291" />
-    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623241280127">
+    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1629968863376" />
+    <state width="1894" height="299" key="GridCell.Tab.0.bottom" timestamp="1632370197073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="624" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623241280127" />
-    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1622277593034">
+    <state width="1894" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632370197073" />
+    <state width="1894" height="299" key="GridCell.Tab.0.center" timestamp="1632370197073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622277593034" />
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom" timestamp="1624283703084">
+    <state width="1894" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632370197073" />
+    <state width="1894" height="299" key="GridCell.Tab.0.left" timestamp="1632370197072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1624283703084" />
-    <state width="1867" height="267" key="GridCell.Tab.0.center" timestamp="1624283703084">
+    <state width="1894" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632370197072" />
+    <state width="1894" height="299" key="GridCell.Tab.0.right" timestamp="1632370197073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1624283703084" />
-    <state width="1867" height="267" key="GridCell.Tab.0.left" timestamp="1624283703084">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1624283703084" />
-    <state width="1867" height="267" key="GridCell.Tab.0.right" timestamp="1624283703084">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1867" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1624283703084" />
-    <state x="344" y="78" key="SettingsEditor" timestamp="1623241510764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="344" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623241510764" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="Dart">
-          <url>mock:///growable_array.dart</url>
-          <line>146</line>
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="dart-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
+    <state width="1894" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632370197073" />
   </component>
 </project>
