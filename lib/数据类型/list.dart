@@ -1,5 +1,3 @@
-import 'package:dart_demo_learn/main.dart' as dart_demo_learn;
-
 void main() {
 //  print('Hello world: ${dart_demo_learn.calculate()}!');
 //  Combie();
