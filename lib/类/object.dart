@@ -1,9 +1,8 @@
 void main() {
-
 //  objectClone();
 //   objectCloneUseApi();
 //  testIs();
- testAnnl();
+  testAnnl();
 }
 
 class A {
@@ -13,16 +12,12 @@ class A {
   String toString() {
     return name.toString();
   }
-
 }
 
 objectCloneUseApi() {
-  var a = {
-    'a': '1',
-    'b': 2
-  };
+  var a = {'a': '1', 'b': 2};
 
-  var b = Map.castFrom(a);  // 改的是A
+  var b = Map.castFrom(a); // 改的是A
   b['a'] = 'cloneb';
 
   var c = Map.from(a);
@@ -39,6 +34,7 @@ objectCloneUseApi() {
   print(d);
   print(e);
 }
+
 objectClone() {
   A a1 = A();
   a1.name = 'qwe';
@@ -48,7 +44,7 @@ objectClone() {
   a2.name = 123;
   print(a1);
 
-  var a3 = {a1};  // 无法克隆，失败
+  var a3 = {a1}; // 无法克隆，失败
 
   print(a3.toSet());
   print(a3.toList(growable: false));
@@ -66,13 +62,13 @@ objectClone() {
   print(a1);
   print(a4);
 }
+
 testIs() {
   var str = {};
   print(str is Map);
   print(str is Object);
   print(main is Object);
   print(main is Map);
-
 }
 
 testAnnl() {

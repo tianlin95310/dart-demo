@@ -1,9 +1,8 @@
 void main() async {
-//  Future.wait([fun1(), fun2()]).then((res) {
-//    print(res);
-//  });
-
-  print((fun3()).runtimeType);
+  Future.wait([fun1(), fun2()]).then((res) {
+    print(res);
+  });
+  print((await fun3()).runtimeType);
   print((fun4()).runtimeType);
 }
 
@@ -22,7 +21,7 @@ Future<String> fun2() async {
 }
 
 Future<dynamic> fun3() async {
-  Future.delayed(Duration(milliseconds: 2), () {
+  Future.delayed(Duration(milliseconds: 3), () {
     print('fun3');
   });
   return await fun2();

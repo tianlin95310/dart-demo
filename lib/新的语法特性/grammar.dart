@@ -1,9 +1,10 @@
 void main() {
-
-  (){print('fucker');}();
+  () {
+    print('fucker');
+  }();
 
   String str = '123';
-  switch(str) {
+  switch (str) {
     case '123':
       print('123');
       break;

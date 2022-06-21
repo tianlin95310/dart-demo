@@ -23,16 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52fa06af-3ffb-4d22-83d2-94dc6fee23ae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/数据类型/math-cacu.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/异步/async-await.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/类/mixin-on.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dart-demo-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dart-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/数据类型/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/数据类型/list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dart_demo_learn_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/异步/future.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/异步/future.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/数据类型/math-cacu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/操作符/math-cacu.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/文件读取/getAssetsPath.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/文件读取/getAssetsPath.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/文件读取/renameFile.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/类/object.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/类/object.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/语法/Class_ask.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/新的语法特性/Class_ask.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/语法/grammar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/新的语法特性/grammar.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,18 +71,18 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SourceCode\IntelliJ IDEA\dart-demo-learn\bin\格式化" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\Codes\AS\dart-demo\lib\操作符" />
       <recent name="D:\work\Codes\AS\dart-demo\lib\语法" />
       <recent name="D:\work\Codes\AS\dart-demo\lib\json处理" />
       <recent name="D:\work\Codes\AS\dart-demo\lib" />
       <recent name="G:\SourceCode\learn\dart-demo\bin\异常" />
-      <recent name="G:\SourceCode\learn\dart-demo\bin\异步" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SourceCode\IntelliJ IDEA\dart-demo-learn\bin\格式化" />
     </key>
   </component>
-  <component name="RunManager" selected="Dart Command Line App.math-cacu.dart">
+  <component name="RunManager" selected="Dart Command Line App.getAssetsPath.dart">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -115,9 +115,15 @@
       <option name="checkedMode" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="del.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+    <configuration name="async-await.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/lib/文件读取/del.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/异步/async-await.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="future.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="checkedMode" value="false" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/异步/future.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -129,7 +135,7 @@
     </configuration>
     <configuration name="grammar.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/lib/语法/grammar.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/新的语法特性/grammar.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -141,7 +147,7 @@
     </configuration>
     <configuration name="math-cacu.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/lib/数据类型/math-cacu.dart" />
+      <option name="filePath" value="$PROJECT_DIR$/lib/操作符/math-cacu.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -150,59 +156,6 @@
       <option name="filePath" value="$PROJECT_DIR$/lib/类/object.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
-    </configuration>
-    <configuration name="renameFile.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
-      <option name="checkedMode" value="false" />
-      <option name="filePath" value="$PROJECT_DIR$/lib/文件读取/renameFile.dart" />
-      <option name="workingDirectory" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="dart-demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="dart-demo" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -216,19 +169,19 @@
     <list>
       <item itemvalue="Dart Command Line App.list.dart" />
       <item itemvalue="Dart Command Line App.object.dart" />
-      <item itemvalue="Dart Command Line App.renameFile.dart" />
-      <item itemvalue="Dart Command Line App.del.dart" />
       <item itemvalue="Dart Command Line App.getAssetsPath.dart" />
       <item itemvalue="Dart Command Line App.grammar.dart" />
       <item itemvalue="Dart Command Line App.math-cacu.dart" />
+      <item itemvalue="Dart Command Line App.future.dart" />
+      <item itemvalue="Dart Command Line App.async-await.dart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Command Line App.getAssetsPath.dart" />
+        <item itemvalue="Dart Command Line App.async-await.dart" />
+        <item itemvalue="Dart Command Line App.future.dart" />
         <item itemvalue="Dart Command Line App.math-cacu.dart" />
         <item itemvalue="Dart Command Line App.grammar.dart" />
-        <item itemvalue="Dart Command Line App.getAssetsPath.dart" />
-        <item itemvalue="Dart Command Line App.renameFile.dart" />
-        <item itemvalue="Dart Command Line App.del.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -267,22 +220,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="740" y="270" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1653970704672" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1653970968808">
+    <state width="1860" height="273" key="GridCell.Tab.0.bottom" timestamp="1654185982827">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1653970968808" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1653970968808">
+    <state width="1860" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1654185982827" />
+    <state width="1860" height="273" key="GridCell.Tab.0.center" timestamp="1654185982826">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1653970968808" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1653970968808">
+    <state width="1860" height="273" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1654185982826" />
+    <state width="1860" height="273" key="GridCell.Tab.0.left" timestamp="1654185982826">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1653970968808" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1653970968808">
+    <state width="1860" height="273" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1654185982826" />
+    <state width="1860" height="273" key="GridCell.Tab.0.right" timestamp="1654185982827">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1653970968808" />
+    <state width="1860" height="273" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1654185982827" />
     <state x="461" y="160" key="SettingsEditor" timestamp="1653970709659">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
