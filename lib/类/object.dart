@@ -2,15 +2,43 @@ void main() {
 //  objectClone();
 //   objectCloneUseApi();
 //  testIs();
-  testAnnl();
+//   testAnnl();
+
+  A a = A();
+  print('funa = ${a.funa.runtimeType}, funb = ${a.funb.runtimeType}');
+  a.something1((fun) {
+    print('something1 = $fun');
+  });
+  a.something2((int fun) {
+    print('something2 = $fun');
+    return 'String';
+  });
 }
 
 class A {
   dynamic name;
-
+  // 这种函数变量定义了函数的返回值，不能返回其他类型的值
+  void Function()? funa = () {
+    return;
+  };
+  // 这种函数变量返回的类型未定
+  Function? funb = () {
+    return 1;
+  };
   @override
   String toString() {
     return name.toString();
+  }
+
+  something1(void Function(int p1) onDo) {
+    print('something1 onDo = $onDo, onDo.runtimeType = ${onDo.runtimeType}');
+    onDo.call(10);
+    onDo(11);
+  }
+  something2(Function? onDo) {
+    print('something2 onDo = $onDo, onDo.runtimeType = ${onDo.runtimeType}');
+    onDo?.call(100);
+    onDo!(101);
   }
 }
 
