@@ -1,4 +1,8 @@
 void main() {
+  testNew();
+}
+
+testNew() {
   NewClass c1 = NewClass.new();
   print(c1);
 

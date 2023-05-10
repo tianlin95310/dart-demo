@@ -1,3 +1,14 @@
+void main() {
+  var b = B(123, DateTime(2000), DateTime(2022));
+  print(b.a1?.name);
+  print(b.b2);
+  print(b.name);
+  print(b);
+
+  print(B.sf1);
+  print(B.sf2);
+}
+
 class A {
   String name = '';
 
@@ -8,9 +19,7 @@ class A {
     name = name ?? 'haha';
   }
 
-  void fun() {
-
-  }
+  void fun() {}
 }
 
 class B extends A {
@@ -93,19 +102,6 @@ class B extends A {
         'dateTime22: $dateTime22, '
         'dateTime4: $dateTime4, '
         'dateTime5: $dateTime5, '
-        '}'
-    ;
+        '}';
   }
-
-}
-
-void main() {
-  var b = B(123, DateTime(2000), DateTime(2022));
-  print(b.a1?.name);
-  print(b.b2);
-  print(b.name);
-  print(b);
-
-  print(B.sf1);
-  print(B.sf2);
 }

@@ -1,5 +1,5 @@
 void main() {
-  print(calcSimpleExp('100+50-50-'));
+  print(calcSimpleExp('100+50-50-10+30+'));
 }
 
 // 简单的表达式计算

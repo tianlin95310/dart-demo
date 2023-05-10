@@ -4,6 +4,10 @@ void main() {
 //  testIs();
 //   testAnnl();
 
+  // testFunctionField();
+}
+
+testFunctionField() {
   A a = A();
   print('funa = ${a.funa.runtimeType}, funb = ${a.funb.runtimeType}');
   a.something1((fun) {
@@ -35,6 +39,7 @@ class A {
     onDo.call(10);
     onDo(11);
   }
+
   something2(Function? onDo) {
     print('something2 onDo = $onDo, onDo.runtimeType = ${onDo.runtimeType}');
     onDo?.call(100);

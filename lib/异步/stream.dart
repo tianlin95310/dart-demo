@@ -10,10 +10,13 @@ void main() {
 }
 
 streamTransformer() {
-  Stream<int> stream = Stream<int>.periodic(Duration(seconds: 1), (e) => e).asBroadcastStream();
+  Stream<int> stream =
+      Stream<int>.periodic(Duration(seconds: 1), (e) => e).asBroadcastStream();
   stream = stream.take(5);
 
-  StreamTransformer<int, String> streamTransformer = StreamTransformer<int, String>.fromHandlers(handleData: (int value, EventSink sink) {
+  StreamTransformer<int, String> streamTransformer =
+      StreamTransformer<int, String>.fromHandlers(
+          handleData: (int value, EventSink sink) {
     print(value);
     sink.add('name${value}');
   }, handleDone: (EventSink sink) {
@@ -30,7 +33,8 @@ streamTransformer() {
 
 broadcastStream() {
   // 多方监听
-  Stream<int> stream = Stream<int>.periodic(Duration(seconds: 1), (e) => e).asBroadcastStream();
+  Stream<int> stream =
+      Stream<int>.periodic(Duration(seconds: 1), (e) => e).asBroadcastStream();
   stream = stream.take(5);
   stream.listen(print);
   stream.listen(print);

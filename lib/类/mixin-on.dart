@@ -1,9 +1,21 @@
+void main() {
+  AClass().fun();
+  BClass().fun();
+
+  BClass b = BClass();
+  print(b is AClass);
+  print(b is A);
+  print(b is B);
+  print(b is C);
+  print(b is Man);
+}
+
 mixin A {
   fun() {
     print('A');
   }
 }
-mixin B on Man{
+mixin B on Man {
   fun() {
     print('B');
   }
@@ -17,24 +29,28 @@ abstract class Man {
 // abstract class C extends Man{
 //   fun();
 // }
-abstract class C implements Man{
+abstract class C implements Man {
   fun();
 }
-// dart只能单继承extends只能接一个
-class AClass extends C with A, B implements Man{
+
+abstract class DClass {
+  fun();
+  funD();
+}
+
+// dart只能单继承extends只能接一个，可以implements多个
+class AClass extends C with A, B implements Man, DClass {
   @override
-  say() {
+  say() {}
+
+  @override
+  funD() {
+    throw UnimplementedError();
   }
 }
 
 // dart只能单继承extends只能接一个
-class BClass extends C with B, A, B, A implements Man{
+class BClass extends C with B, A, B, A implements Man {
   @override
-  say() {
-  }
-}
-
-void main() {
-  AClass().fun();
-  BClass().fun();
+  say() {}
 }

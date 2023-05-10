@@ -1,4 +1,4 @@
-import 'query-parse.dart';
+import '../正则/query-parse.dart';
 
 void main(){
   String url = 'AasfasfaQqasf';

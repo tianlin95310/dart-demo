@@ -7,13 +7,12 @@ void main() {
 
 void getFileName(String path) {
   Directory directory = Directory(path);
-  
+
   directory.listSync().forEach((element) {
     String name = element.path.replaceAll('\\', '/');
     int index = name.indexOf('assets');
     print('- ' + name.substring(index, name.length) + '/');
   });
-
 }
 
 void addSprite(path) {

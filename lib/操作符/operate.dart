@@ -7,7 +7,9 @@ class A implements Comparable<A> {
   }
 
   @override
-  bool operator ==(Object other) => identical(this, other) || other is A && runtimeType == other.runtimeType && v == other.v;
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is A && runtimeType == other.runtimeType && v == other.v;
 
   @override
   int get hashCode => v.hashCode;

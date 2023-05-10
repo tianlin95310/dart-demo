@@ -1,8 +1,8 @@
 void main() {
-  () {
-    print('fucker');
-  }();
-
+  // selfCall();
+  switchStr();
+}
+switchStr() {
   String str = '123';
   switch (str) {
     case '123':
@@ -14,4 +14,10 @@ void main() {
     default:
       print('default');
   }
+}
+
+selfCall() {
+  () {
+    print('fucker');
+  }();
 }
