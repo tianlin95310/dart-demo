@@ -1,9 +1,33 @@
+import 'dart:collection';
+
 void main() {
 //  mapCombine();
 
-  combineIfNull();
+  // combineIfNull();
+
+  // hashmap();
+  treeMap();
 }
 
+treeMap() {
+  SplayTreeMap map = SplayTreeMap();
+  map['aaa'] = 123;
+  map['123'] = 'aaa';
+  map['124'] = 'ccc';
+  map['bbb'] = 'bbb';
+  map['aab'] = 120;
+  map['ccc'] = 125;
+  print(map);
+}
+
+hashmap() {
+  HashMap map = HashMap();
+  map['aaa'] = 123;
+  map['1'] = '1a';
+  map['2'] = 'a1';
+  map['3'] = '12';
+  print(map);
+}
 combineIfNull() {
   Map? map;
   map = {};
