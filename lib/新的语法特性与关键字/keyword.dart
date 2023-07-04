@@ -1,4 +1,20 @@
 void main() {
+  try {
+    testAssert();
+  } on Exception catch (e) {
+    print(e);
+  } finally {
+  }
+  testAssert();
+}
+
+testAssert() {
+  print('testAssert start ');
+  assert(1 == 2);
+  print('testAssert end ');
+}
+
+newFiledKeyword() {
   var b = B(123, DateTime(2000), DateTime(2022));
   print(b.a1?.name);
   print(b.b2);
@@ -8,7 +24,6 @@ void main() {
   print(B.sf1);
   print(B.sf2);
 }
-
 class A {
   String name = '';
 

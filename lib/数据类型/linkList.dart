@@ -15,7 +15,7 @@ linklist() {
   list.forEach(print);
 }
 
-class Person extends LinkedListEntry<Person>{
+final class Person extends LinkedListEntry<Person>{
   String name;
 
   Person(this.name);
