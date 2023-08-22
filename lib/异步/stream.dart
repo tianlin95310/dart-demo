@@ -4,9 +4,9 @@ void main() {
   // periodicStream();
   // futureStream();
   // iterableStream();
-  // listenStream();
-  // broadcastStream();
-  streamTransformer();
+  listenStream();
+  broadcastStream();
+  // streamTransformer();
 }
 
 streamTransformer() {
@@ -44,14 +44,14 @@ broadcastStream() {
 listenStream() {
   List<int> list = [1, 2, 3, 4];
   Stream<int> stream = Stream<int>.fromIterable(list);
-  stream = stream.take(3);
+  // stream = stream.take(3);
   stream.listen((int x) {
     print(x);
   });
   // 同时
-  // stream.listen((int x){
-  //   print(x);
-  // });
+  stream.listen((int x){
+    print(x);
+  });
 }
 
 iterableStream() {

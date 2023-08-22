@@ -2,8 +2,8 @@ void main() {
   String str = '123';
 
   fun(str);
-
   print(str);
+  print(fun);
 
   Test a = Test();
   a.name = 'fun1';

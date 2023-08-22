@@ -3,9 +3,12 @@ void main() {
     testAssert();
   } on Exception catch (e) {
     print(e);
-  } finally {
+  } on Error catch(e) {
+    testAssert();
   }
-  testAssert();
+  finally {
+  }
+  // testAssert();
 }
 
 testAssert() {

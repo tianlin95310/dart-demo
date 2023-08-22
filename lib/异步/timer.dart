@@ -4,6 +4,8 @@ int time = 6;
 
 void main() {
   startCountdownTimer();
+
+  Timer.run(() { print('run');});
 }
 
 void startCountdownTimer() {

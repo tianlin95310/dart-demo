@@ -36,6 +36,9 @@ class Person implements Comparable{
       return 0;
     }
   }
+
+  @override
+  int get hashCode => super.hashCode;
 }
 treeSet1() {
   SplayTreeSet treeSet  = SplayTreeSet();

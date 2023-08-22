@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 void main() {
-  Socket.connect('192.168.1.2', 10005).then((socket) async {
+  Socket.connect('127.0.0.1', 10005).then((socket) async {
     // socket.transform(UTF8.decoder).listen(print);
     socket.write('{"cmd":"current time"');
     await Future.delayed(const Duration(seconds: 1));

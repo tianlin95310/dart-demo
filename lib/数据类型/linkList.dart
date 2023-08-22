@@ -2,6 +2,8 @@ import 'dart:collection';
 
 void main() {
  LinkedHashSet set = LinkedHashSet();
+
+ linklist();
 }
 
 linklist() {

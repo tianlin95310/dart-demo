@@ -1,10 +1,17 @@
+import 'dart:async';
+
 void main() {
   Stream<int> a = funa();
+  a.asBroadcastStream(onListen: (StreamSubscription<int> subscription){
+    print(subscription);
+  }).listen((event) {
+    print('a listen $event');
+  });
   print(a.forEach(print));
   // print(funb()..forEach(print));
 
-  Future<int> c = func();
-  print(c..then(print));
+  // Future<int> c = func();
+  // print(c..then(print));
   // print(fund()..forEach(print));
 }
 

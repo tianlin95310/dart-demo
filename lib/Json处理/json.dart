@@ -11,7 +11,6 @@ void main() {
   user['socket'] = null;
   map['what'] = 1;
   map['content'] = user;
-
   print('---json---' + jsonEncode(map));
 }
 

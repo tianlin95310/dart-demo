@@ -1,11 +1,20 @@
 void main() async {
-  Future.wait([fun1(), fun2()]).then((res) {
-    print(res);
-  });
+  microtask();
+}
+microtask() {
+  Future.microtask(() async {
+    return Future.value(123);
+  }).then((value) => print(value));
+}
+futureType() async {
   print((await fun3()).runtimeType);
   print((fun4()).runtimeType);
 }
-
+wait() {
+  Future.wait([fun1(), fun2()]).then((res) {
+    print(res);
+  });
+}
 Future<dynamic> fun1() async {
   Future.delayed(Duration(seconds: 1), () {
     print('fun1');
